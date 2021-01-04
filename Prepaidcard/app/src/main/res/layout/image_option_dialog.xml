@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="res/drawable/selector_rectangle_1dp_grey_stroke__corner_3dp.xml" android:padding="7dp" android:layout_width="-1" android:layout_height="-2" android:layout_margin="2dp">
+	<LinearLayout android:gravity="0x11" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:background="861f41" android:padding="10dp" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}" android:layout_marginEnd="3dp">
+			<ImageView android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable/ic_camera_white.xml" android:contentDescription="open camera" />
+			<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="resourceId:0x106000b" android:gravity="0x11" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" android:text="Camera" />
+		</LinearLayout>
+		<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:background="9ccd64" android:padding="10dp" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}" android:layout_marginEnd="3dp">
+			<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable/ic_signature_white_32dp.xml" />
+			<TextView android:textSize="13sp" android:textStyle="0x1" android:textColor="resourceId:0x106000b" android:gravity="0x11" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" android:text="Signature Pad" android:contentDescription="open signature pad" />
+		</LinearLayout>
+		<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:background="c0ffbd21" android:padding="10dp" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+			<ImageView android:layout_width="50dp" android:layout_height="50dp" android:src="res/drawable/ic_gallery_white.xml" android:contentDescription="open gallery" />
+			<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="resourceId:0x106000b" android:gravity="0x11" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" android:text="Gallery" />
+		</LinearLayout>
+	</LinearLayout>
+	<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp">
+		<ImageView android:id="false" android:background="res/drawable/selector_rectangle_1dp_grey_stroke__corner_3dp.xml" android:padding="5dp" android:clickable="true" android:layout_width="45dp" android:layout_height="45dp" android:src="res/drawable/ic_delete.xml" android:layout_marginEnd="0dp" android:layout_alignParentEnd="true" />
+		<ImageView android:id="false" android:background="res/drawable/selector_rectangle_1dp_grey_stroke__corner_3dp.xml" android:padding="5dp" android:clickable="true" android:layout_width="45dp" android:layout_height="45dp" android:src="res/drawable/ic_rotate.xml" android:layout_marginEnd="10dp" android:layout_toStartOf="false" />
+		<ImageView android:id="false" android:background="res/drawable/selector_rectangle_1dp_grey_stroke__corner_3dp.xml" android:padding="5dp" android:clickable="true" android:layout_width="45dp" android:layout_height="45dp" android:src="res/drawable/ic_rotate.xml" android:scaleY="{4:3212836864}" android:rotation="{4:1127481344}" android:layout_marginEnd="10dp" android:layout_toStartOf="false" />
+	</RelativeLayout>
+</LinearLayout>

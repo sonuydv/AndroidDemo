@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="android.form.avss.prepaidcard"
+    android:platformBuildVersionCode="28"
+    android:platformBuildVersionName="9"
+    android:compileSdkVersion="28"
+    android:compileSdkVersionCodename="9"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="27" />
+
+    <uses-feature android:name="android.hardware.location.gps" />
+    <uses-feature android:name="android.hardware.location.network" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.screen.landscape"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+
+    <application
+        android:allowBackup="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:hardwareAccelerated="true"
+        android:icon="res/mipmap-xxxhdpi-v4/axis_logo.png"
+        android:label="AllInOne"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="resourceId:0x7f120008"
+        tools:ignore="HardcodedDebugMode">
+        <activity
+            android:name="android.form.avss.prepaidcard.metro_card_app.fullKyc.ReKycNotRequiredActivity"
+            android:screenOrientation="portrait"
+            android:theme="resourceId:0x7f12000a" />
+        <activity android:name="android.form.avss.prepaidcard.ui.activities.Dedup" />
+        <activity android:name="android.form.avss.prepaidcard.ui.activities.CapturedImageActivity" />
+        <activity
+            android:name="android.form.avss.prepaidcard.ui.activities.DiscrepancyDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="resourceId:0x7f12000a" />
+        <activity
+            android:name="android.form.avss.prepaidcard.ui.activities.FormDetailListActivity"
+            android:screenOrientation="portrait"
+            android:theme="resourceId:0x7f12000a" />
+        <activity
+            android:name="android.form.avss.prepaidcard.ui.activities.TDocumentActivity"
+            android:screenOrientation="portrait"
+            android:theme="resourceId:0x7f12000a" />
+        <activity
+            android:name="android.form.avss.prepaidcard.prepaid_app.EtbOrNtbCustomerActivity"
+            android:screenOrientation="portrait"
+            android:theme="resourceId:0x7f12000a" />
+        <activity
+            android:name="android.form.avss.prepaidcard.ui.activities.CaptureImagesActivity"
+            android:screenOrientation="portrait"
+            android:theme="resourceId:0x7f12000a" />
+        <activity
+            android:name="android.form.avss.prepaidcard.ui.activities.CaptureImagesActivityNew"
+            android:screenOrientation="portrait"
+            android:theme="resourceId:0x7f12000a" />
+        <activity
+            android:name="android.form.avss.prepaidcard.ui.activities.ScanBarcodeActivity"
+            android:screenOrientation="portrait"
+            android:theme="resourceId:0x7f12000a" />
+        <activity
+            android:name="android.form.avss.prepaidcard.prepaid_app.EkycOptionActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="resourceId:0x7f12000a" />
+        <activity
+            android:name="android.form.avss.prepaidcard.prepaid_app.CardDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="resourceId:0x7f12000a"
+            android:windowSoftInputMode="0x2" />
+        <activity
+            android:name="android.form.avss.prepaidcard.ui.activities.AllModuleDashboardActivity"
+            android:label=""
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="resourceId:0x7f12000a" />
+        <activity android:name="android.form.avss.prepaidcard.ui.activities.BaseActivity" />
+        <activity
+            android:name="android.form.avss.prepaidcard.ui.activities.MaskAadhaarNumberActivity"
+            android:screenOrientation="portrait"
+            android:theme="resourceId:0x7f12000a" />
+        <activity
+            android:name="android.form.avss.prepaidcard.ui.activities.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="resourceId:0x7f12000a">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="android.form.avss.prepaidcard.ui.activities.WalletAndCustomerIdActivity" />
+        <activity
+            android:name="android.form.avss.prepaidcard.ihmf_form_fill.ui.Activities.FormFillActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="0x10" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="resourceId:0x7f12004c" />
+        <activity
+            android:name="android.form.avss.prepaidcard.ihmf_form_fill.ui.Activities.MySignaturePadActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="android.form.avss.prepaidcard.ihmf_form_fill.ui.Activities.CustomCameraActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="android.form.avss.prepaidcard.transit_app.T_ThankYouActivity" />
+        <activity android:name="android.form.avss.prepaidcard.prepaid_app.P_ThankYouActivity" />
+        <activity android:name="android.form.avss.prepaidcard.fastag_app.F_ThankYouActivity" />
+        <activity
+            android:name="android.form.avss.prepaidcard.fastag_app.FCard_CardDetailsActivity"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="resourceId:0x7f12000a" />
+        <activity
+            android:name="android.form.avss.prepaidcard.fastag_app.FCardPersonalDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="resourceId:0x7f12000a" />
+        <activity
+            android:name="android.form.avss.prepaidcard.fastag_app.FCardLinkBankActivity"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="resourceId:0x7f12000a" />
+        <activity
+            android:name="android.form.avss.prepaidcard.fastag_app.FCardRegistration"
+            android:screenOrientation="portrait"
+            android:theme="resourceId:0x7f12000a" />
+        <activity
+            android:name="android.form.avss.prepaidcard.fastag_app.ThankyouFullKYCActivity"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="resourceId:0x7f12000a" />
+        <activity
+            android:name="android.form.avss.prepaidcard.transit_app.TOtpActivity"
+            android:excludeFromRecents="true"
+            android:theme="resourceId:0x7f12000b" />
+        <activity
+            android:name="android.form.avss.prepaidcard.transit_app.TCard_CardDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="resourceId:0x7f12000a" />
+        <activity
+            android:name="android.form.avss.prepaidcard.transit_app.TCardLinkBankActivity"
+            android:screenOrientation="portrait"
+            android:theme="resourceId:0x7f12000a" />
+        <activity
+            android:name="android.form.avss.prepaidcard.transit_app.TCardPersonalDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="resourceId:0x7f12000a" />
+        <activity
+            android:name="android.form.avss.prepaidcard.transit_app.TCardRegistrationActivity"
+            android:screenOrientation="portrait"
+            android:theme="resourceId:0x7f12000a" />
+        <activity android:name="android.form.avss.prepaidcard.ihmf_form_fill.ui.CustomCamera.CameraActivity" />
+        <activity android:name="android.form.avss.prepaidcard.ihmf_form_fill.ui.Activities.ImagePreviewActivity" />
+        <activity
+            android:name="android.form.avss.prepaidcard.ui.activities.ScrutinyWebViewActivity"
+            android:screenOrientation="portrait"
+            android:theme="resourceId:0x7f12000a" />
+        <activity
+            android:name="android.form.avss.prepaidcard.metro_card_app.lightKyc.MinKycActivity"
+            android:screenOrientation="portrait"
+            android:theme="resourceId:0x7f12000a" />
+        <activity android:name="android.form.avss.prepaidcard.metro_card_app.fullKyc.McCardRegistrationActivity" />
+        <activity android:name="android.form.avss.prepaidcard.metro_card_app.fullKyc.McLinkbankActivity" />
+        <activity
+            android:name="android.form.avss.prepaidcard.metro_card_app.fullKyc.McCarddetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="resourceId:0x7f12000a" />
+        <activity
+            android:name="android.form.avss.prepaidcard.metro_card_app.fullKyc.McPersonalDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="resourceId:0x7f12000a" />
+        <activity
+            android:name="android.form.avss.prepaidcard.metro_card_app.fullKyc.McDocumentActivity"
+            android:screenOrientation="portrait"
+            android:theme="resourceId:0x7f12000a" />
+        <activity
+            android:name="android.form.avss.prepaidcard.metro_card_app.fullKyc.McFullKycPaymentActivity"
+            android:excludeFromRecents="true"
+            android:theme="resourceId:0x7f12000b" />
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="sensorLandscape"
+            android:stateNotNeeded="true"
+            android:theme="resourceId:0x7f1202cb"
+            android:windowSoftInputMode="0x3" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="android.form.avss.prepaidcard.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="android.form.avss.prepaidcard.com.squareup.picasso"
+            android:exported="false" />
+    </application>
+</manifest>

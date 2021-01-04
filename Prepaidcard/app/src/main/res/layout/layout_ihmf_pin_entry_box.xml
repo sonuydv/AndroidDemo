@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.form.avss.prepaidcard.ihmf_form_fill.ui.ControlsView.IHMFTextBox xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:textStyle="0x0" android:id="false" android:background="res/drawable/background_ihmf_text_fields.xml" android:layout_width="-2" android:layout_height="-2" android:text="" android:cursorVisible="true" app:cursorColor="d1aa" app:cursorWidth="2dp" app:itemSpacing="0dp" app:lineColor="000" app:viewType="0" style="resourceId:0x7f1200f9" />

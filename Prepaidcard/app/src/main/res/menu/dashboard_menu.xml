@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item android:icon="res/drawable-xxhdpi-v4/s_icon.png" android:id="false" android:orderInCategory="100" android:title="Sync Master Data" app:showAsAction="0x1" />
+	<item android:icon="res/drawable/ic_refresh.xml" android:id="false" android:orderInCategory="100" android:title="Refresh buckets" app:showAsAction="0x1" />
+</menu>

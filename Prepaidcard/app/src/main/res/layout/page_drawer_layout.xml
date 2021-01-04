@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="2e2e2e" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textSize="18sp" android:textColor="ffffff" android:gravity="0x10" android:id="false" android:padding="5dp" android:layout_width="-1" android:layout_height="45dp" android:text="Card Details" app:layout_constraintTop_toTopOf="0" />
+	<TextView android:textSize="18sp" android:textColor="ffffff" android:gravity="0x10" android:id="false" android:padding="5dp" android:layout_width="-1" android:layout_height="45dp" android:text="Personal Details" android:layout_below="false" app:layout_constraintTop_toBottomOf="false" />
+	<TextView android:textSize="18sp" android:textColor="ffffff" android:gravity="0x10" android:id="false" android:padding="5dp" android:layout_width="-1" android:layout_height="45dp" android:layout_below="false" app:layout_constraintTop_toBottomOf="false" />
+	<TextView android:textSize="18sp" android:textStyle="0x2" android:textColor="ffffff" android:gravity="0x10" android:id="false" android:padding="10dp" android:layout_width="-1" android:layout_height="45dp" android:layout_alignParentBottom="true" app:layout_constraintBottom_toBottomOf="0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

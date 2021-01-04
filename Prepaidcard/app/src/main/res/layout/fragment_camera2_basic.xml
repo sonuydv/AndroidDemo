@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="-1">
+	<android.form.avss.prepaidcard.ihmf_form_fill.ui.CustomCamera.AutoFitTextureView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+	<TextView android:textStyle="0x2" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:layout_centerHorizontal="true" />
+	<View android:id="false" android:background="res/drawable-xhdpi-v4/selector_ic_capture_image.xml" android:clickable="true" android:layout_width="70dp" android:layout_height="70dp" android:layout_marginBottom="20dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:elevation="5dp" />
+	<TextView android:textColor="861f41" android:id="false" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:text="Processing image.
+ Please wait…" android:layout_above="false" android:layout_centerHorizontal="true" android:textAlignment="4" />
+	<ProgressBar android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+	<View android:background="res/drawable-xhdpi-v4/shape_rectangle_dotted_stroke.xml" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_margin="50dp" />
+</RelativeLayout>

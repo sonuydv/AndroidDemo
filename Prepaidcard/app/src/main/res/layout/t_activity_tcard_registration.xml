@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="-1">
+		<include layout="res/layout/layout_appbar.xml" />
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="50dp" android:layout_above="false">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Transit Card Registration" />
+			<TextView android:textSize="10sp" android:textStyle="0x1" android:textColor="494949" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Adding or Updating Transit Card details of an Existing/New Customer" />
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/cust_bg.png" android:layout_width="-1" android:layout_height="-2" android:layout_margin="7dp" android:layout_centerVertical="true">
+			<RelativeLayout android:gravity="0x11" android:layout_gravity="0x1" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1084227584}">
+				<TextView android:textSize="18sp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40dp" android:text="New Customer" />
+				<Button android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="7dp" android:text="Get Started" android:layout_below="false" />
+			</RelativeLayout>
+			<RelativeLayout android:gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1084227584}">
+				<TextView android:textSize="18sp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="25dp" android:text="Existing Customer Details" android:layout_centerHorizontal="true" />
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textColor="861f41" android:textColorHint="000" android:id="false" android:background="res/drawable/bg_correct_edit_text.xml" android:layout_width="-1" android:layout_height="-2" android:layout_margin="7dp" android:hint="Card Number" android:maxLength="4" android:layout_below="false" android:inputType="0x2" android:imeOptions="0x5" />
+				<TextView android:textSize="10sp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="7dp" android:text="(Enter last 4 digits of card number)" android:layout_below="false" />
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textColor="861f41" android:textColorHint="000" android:id="false" android:background="res/drawable/bg_correct_edit_text.xml" android:layout_width="-1" android:layout_height="-2" android:layout_margin="3dp" android:hint="Mobile Number" android:maxLength="10" android:layout_below="false" android:inputType="0x2" android:imeOptions="0x5" />
+				<Button android:textSize="15sp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" android:text="Proceed" android:layout_below="false" android:layout_centerInParent="true" />
+			</RelativeLayout>
+		</LinearLayout>
+	</RelativeLayout>
+	<include layout="res/layout/sidebar.xml" />
+</androidx.drawerlayout.widget.DrawerLayout>

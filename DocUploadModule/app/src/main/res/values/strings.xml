@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NavDrawerWithCustomMenu</string>
+    <string name="frag_data_submission">Data Submission</string>
+</resources>

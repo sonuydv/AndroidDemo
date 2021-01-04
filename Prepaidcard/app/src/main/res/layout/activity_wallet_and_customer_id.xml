@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1" android:layout_margin="10dp">
+	<RelativeLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+		<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="450dp" android:layout_height="-2" android:layout_alignParentStart="true" style="resourceId:0x7f1200f8">
+			<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="Customer Id*" android:maxLength="10" android:inputType="0x2" android:imeOptions="0x5" />
+		</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+		<android.form.avss.prepaidcard.ui.custom_classes.CustomButton android:textSize="12sp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:text="Validate" android:layout_centerVertical="true" android:layout_marginStart="20dp" android:layout_toEndOf="false" />
+	</RelativeLayout>
+	<RelativeLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_below="false">
+		<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="450dp" android:layout_height="-2" android:layout_alignParentStart="true" style="resourceId:0x7f1200f8">
+			<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="Mobile No*" android:maxLength="10" android:inputType="0x3" android:imeOptions="0x6" />
+		</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+		<android.form.avss.prepaidcard.ui.custom_classes.CustomButton android:enabled="false" android:textSize="12sp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:text="Validate" android:layout_centerVertical="true" android:layout_marginStart="20dp" android:layout_toEndOf="false" />
+	</RelativeLayout>
+	<android.form.avss.prepaidcard.ui.custom_classes.CustomButton android:textSize="12sp" android:id="false" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_margin="7dp" android:text="Submit" android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textSize="14sp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_margin="3dp" android:text="Applicant Name*" />
+	<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="3dp" android:layout_alignParentTop="true" style="resourceId:0x7f1200f8">
+		<android.form.avss.prepaidcard.ui.custom_classes.CustomSpinner android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="Prefix*" />
+	</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+	<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="3dp" style="resourceId:0x7f1200f8">
+		<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="First Name*" android:inputType="0x1001" android:imeOptions="0x5" />
+	</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+	<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="3dp" style="resourceId:0x7f1200f8">
+		<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="Middle Name" android:inputType="0x1001" android:imeOptions="0x5" />
+	</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+	<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="3dp" style="resourceId:0x7f1200f8">
+		<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="Last Name*" android:inputType="0x1001" android:imeOptions="0x5" />
+	</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+</LinearLayout>

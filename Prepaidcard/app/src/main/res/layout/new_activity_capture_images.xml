@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-1" android:layout_height="-1">
+	<androidx.constraintlayout.widget.ConstraintLayout android:id="false" android:background="861f41" android:layout_width="-1" android:layout_height="{2:2130968579}">
+		<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_marginTop="7dp" android:layout_marginBottom="7dp" android:text="Documents Upload" android:layout_marginStart="7dp" android:layout_marginEnd="7dp" app:layout_constraintStart_toEndOf="false" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+		<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_marginTop="7dp" android:layout_marginBottom="7dp" android:layout_marginStart="7dp" android:layout_marginEnd="7dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0" />
+	</androidx.constraintlayout.widget.ConstraintLayout>
+	<android.form.avss.prepaidcard.ui.custom_classes.AutoFitFrameLayout android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" android:layout_above="false" android:layout_below="false" android:foregroundGravity="0x11">
+		<android.form.avss.prepaidcard.ui.custom_classes.AutoFitTextureView android:layout_gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-2" android:scaleType="1" />
+		<ImageView android:layout_gravity="0x11" android:id="false" android:background="res/drawable/rsz_round_image.png" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" />
+		<TextView android:textSize="18sp" android:textColor="ffffff" android:gravity="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Keep the face in guider while clicking customer photograph" />
+	</android.form.avss.prepaidcard.ui.custom_classes.AutoFitFrameLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+		<Button android:textSize="14sp" android:textColor="861f41" android:id="false" android:background="res/drawable/my_button_selector.xml" android:layout_width="0dp" android:layout_height="-2" android:text="Take Picture" android:layout_weight="{4:1065353216}" />
+		<Button android:textSize="14sp" android:textColor="861f41" android:id="false" android:background="res/drawable/my_button_selector.xml" android:visibility="2" android:layout_width="0dp" android:layout_height="-2" android:text="Done" android:layout_weight="{4:1065353216}" />
+	</LinearLayout>
+</RelativeLayout>

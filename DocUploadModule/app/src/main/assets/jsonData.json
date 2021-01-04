@@ -1,0 +1,517 @@
+{
+  "resData": [
+    {
+      "docGroupId": "1",
+      "docGroupName": "AB_ENTITY_ID_PROOF",
+      "docGroupLabel": "Entity ID Proof",
+      "tbmand": "1",
+      "idDocGroup": "1",
+      "docList": [
+        {
+          "docId": "1",
+          "docName": "SHOPS AND ESTABLISHMENT ACT",
+          "minDocCount": "1",
+          "maxDocCount": "2",
+          "fieldList": [
+            {
+              "fieldName": "Document identification no.",
+              "fdt": "text",
+              "idfr": "3",
+              "isEditable": true
+            },
+            {
+              "fieldName": "Issue authority",
+              "fdt": "text",
+              "idfr": "3",
+              "isEditable": true
+            },
+            {
+              "fieldName": "Country of issue",
+              "fdt": "text",
+              "idfr": "2",
+              "isEditable": true
+            }
+          ]
+        },
+        {
+          "docId": "20",
+          "docName": "ITR ACKOWLEDGEMENT",
+          "minDocCount": "2",
+          "maxDocCount": "2",
+          "fieldList": [
+            {
+              "fieldName": "Document identification no.",
+              "fdt": "text",
+              "idfr": "3",
+              "isEditable": true
+            },
+            {
+              "fieldName": "Issue authority",
+              "fdt": "text",
+              "idfr": "3",
+              "isEditable": true
+            },
+            {
+              "fieldName": "Country of issue",
+              "fdt": "text",
+              "idfr": "2",
+              "isEditable": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "docGroupId": "2",
+      "docGroupName": "AC_ENTITY_LEGAL_PROOF",
+      "docGroupLabel": "Entity Legal Proof",
+      "tbmand": "1",
+      "idDocGroup": "1",
+      "docList": [
+        {
+          "docId": "1",
+          "docName": "SHOPS AND ESTABLISHMENT ACT",
+          "minDocCount": "1",
+          "maxDocCount": "2",
+          "fieldList": [
+            {
+              "fieldName": "Document identification no.",
+              "fdt": "text",
+              "idfr": "3",
+              "isEditable": true
+            },
+            {
+              "fieldName": "Issue authority",
+              "fdt": "text",
+              "idfr": "3",
+              "isEditable": true
+            },
+            {
+              "fieldName": "Country of issue",
+              "fdt": "text",
+              "idfr": "2",
+              "isEditable": true
+            }
+          ]
+        },
+        {
+          "docId": "20",
+          "docName": "ITR ACKOWLEDGEMENT",
+          "minDocCount": "2",
+          "maxDocCount": "2",
+          "fieldList": [
+            {
+              "fieldName": "Document identification no.",
+              "fdt": "text",
+              "idfr": "3",
+              "isEditable": true
+            },
+            {
+              "fieldName": "Issue authority",
+              "fdt": "text",
+              "idfr": "3",
+              "isEditable": true
+            },
+            {
+              "fieldName": "Country of issue",
+              "fdt": "text",
+              "idfr": "2",
+              "isEditable": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "docGroupId": "3",
+      "docGroupName": "AD_ENTITY_ADDRESS_PROOF",
+      "docGroupLabel": "Entity Address Proof",
+      "tbmand": "1",
+      "idDocGroup": "1",
+      "docList": [
+        {
+          "docId": "1",
+          "docName": "SHOPS AND ESTABLISHMENT ACT",
+          "minDocCount": "1",
+          "maxDocCount": "2",
+          "fieldList": [
+            {
+              "fieldName": "Document identification no.",
+              "fdt": "text",
+              "idfr": "3",
+              "isEditable": true
+            },
+            {
+              "fieldName": "Issue authority",
+              "fdt": "text",
+              "idfr": "3",
+              "isEditable": true
+            },
+            {
+              "fieldName": "Country of issue",
+              "fdt": "text",
+              "idfr": "2",
+              "isEditable": true
+            }
+          ]
+        },
+        {
+          "docId": "29",
+          "docName": "PERMISSION FROM VILLAGE ADMIN",
+          "minDocCount": "1",
+          "maxDocCount": "2",
+          "fieldList": [
+            {
+              "fieldName": "Document identification no.",
+              "fdt": "text",
+              "idfr": "3",
+              "isEditable": true
+            },
+            {
+              "fieldName": "Issue authority",
+              "fdt": "text",
+              "idfr": "3",
+              "isEditable": true
+            },
+            {
+              "fieldName": "Country of issue",
+              "fdt": "text",
+              "idfr": "2",
+              "isEditable": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "docGroupId": "4",
+      "docGroupName": "D_ID_PROOF",
+      "docGroupLabel": "Proprietor's ID Proof",
+      "tbmand": "1",
+      "idDocGroup": "1",
+      "docList": [
+        {
+          "docId": "7",
+          "docName": "VOTER ID CARD",
+          "minDocCount": "1",
+          "maxDocCount": "2",
+          "fieldList": [
+            {
+              "fieldName": "Document identification no.",
+              "fdt": "text",
+              "idfr": "3",
+              "isEditable": true
+            },
+            {
+              "fieldName": "Issue authority",
+              "fdt": "text",
+              "idfr": "3",
+              "isEditable": true
+            },
+            {
+              "fieldName": "Country of issue",
+              "fdt": "text",
+              "idfr": "2",
+              "isEditable": true
+            }
+          ]
+        },
+        {
+          "docId": "34",
+          "docName": "NATIONAL POPULATION REGISTER",
+          "minDocCount": "1",
+          "maxDocCount": "2",
+          "fieldList": [
+            {
+              "fieldName": "Document identification no.",
+              "fdt": "text",
+              "idfr": "3",
+              "isEditable": true
+            },
+            {
+              "fieldName": "Issue authority",
+              "fdt": "text",
+              "idfr": "3",
+              "isEditable": true
+            },
+            {
+              "fieldName": "Country of issue",
+              "fdt": "text",
+              "idfr": "2",
+              "isEditable": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "docGroupId": "5",
+      "docGroupName": "ZA_ADDRESS_PROOF_OF_THE_PROPRIETOR",
+      "docGroupLabel": "Proprietor's Address Proof",
+      "tbmand": "1",
+      "idDocGroup": "1",
+      "docList": [
+        {
+          "docId": "6",
+          "docName": "DRIVING LICENSE",
+          "minDocCount": "1",
+          "maxDocCount": "2",
+          "fieldList": [
+            {
+              "fieldName": "Document identification no.",
+              "fdt": "text",
+              "idfr": "3",
+              "isEditable": true
+            },
+            {
+              "fieldName": "Issue authority",
+              "fdt": "text",
+              "idfr": "3",
+              "isEditable": true
+            },
+            {
+              "fieldName": "Country of issue",
+              "fdt": "text",
+              "idfr": "2",
+              "isEditable": true
+            },
+            {
+              "fieldName": "Expiry Date",
+              "fdt": "Date",
+              "idfr": "1",
+              "isEditable": true
+            }
+          ]
+        },
+        {
+          "docId": "7",
+          "docName": "VOTER ID CARD",
+          "minDocCount": "1",
+          "maxDocCount": "2",
+          "fieldList": [
+            {
+              "fieldName": "Document identification no.",
+              "fdt": "text",
+              "idfr": "3",
+              "isEditable": true
+            },
+            {
+              "fieldName": "Issue authority",
+              "fdt": "text",
+              "idfr": "3",
+              "isEditable": true
+            },
+            {
+              "fieldName": "Country of issue",
+              "fdt": "text",
+              "idfr": "2",
+              "isEditable": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "docGroupId": "6",
+      "docGroupName": "C_PANCARD_FORM_60_61_49A",
+      "docGroupLabel": "PAN Card",
+      "tbmand": "1",
+      "idDocGroup": "0",
+      "docList": [
+        {
+          "docId": "14",
+          "docName": "PAN CARD IMAGE",
+          "minDocCount": "1",
+          "maxDocCount": "3",
+          "fieldList": []
+        }
+      ]
+    },
+    {
+      "docGroupId": "7",
+      "docGroupName": "J_SCHEDULE_OF_CHARGES",
+      "docGroupLabel": "Schedule of Charges",
+      "tbmand": "1",
+      "idDocGroup": "0",
+      "docList": [
+        {
+          "docId": "15",
+          "docName": "SCHEDULE OF CHARGES",
+          "minDocCount": "1",
+          "maxDocCount": "3",
+          "fieldList": []
+        }
+      ]
+    },
+    {
+      "docGroupId": "8",
+      "docGroupName": "N_ANNEXURE_AND_DECLARATIONS",
+      "docGroupLabel": "Annexure and Declarations",
+      "tbmand": "0",
+      "idDocGroup": "0",
+      "docList": [
+        {
+          "docId": "13",
+          "docName": "ANNEXURES",
+          "minDocCount": "1",
+          "maxDocCount": "3",
+          "fieldList": []
+        }
+      ]
+    },
+    {
+      "docGroupId": "12",
+      "docGroupName": "A_TERMS_CONDITION_FORM",
+      "docGroupLabel": "Terms And Condition Form",
+      "tbmand": "1",
+      "idDocGroup": "0",
+      "docList": [
+        {
+          "docId": "16",
+          "docName": "TERMS AND CONDITIONS",
+          "minDocCount": "2",
+          "maxDocCount": "2",
+          "fieldList": []
+        }
+      ]
+    },
+    {
+      "docGroupId": "9",
+      "docGroupName": "F_PHOTOGRAPH",
+      "docGroupLabel": "Photograph",
+      "tbmand": "1",
+      "idDocGroup": "0",
+      "docList": [
+        {
+          "docId": "9",
+          "docName": "PHOTOGRAPH",
+          "minDocCount": "1",
+          "maxDocCount": "3",
+          "fieldList": [
+            {
+              "fieldName": "Document identification no.",
+              "fdt": "text",
+              "idfr": "3",
+              "isEditable": true
+            },
+            {
+              "fieldName": "Issue authority",
+              "fdt": "text",
+              "idfr": "3",
+              "isEditable": true
+            },
+            {
+              "fieldName": "Country of issue",
+              "fdt": "text",
+              "idfr": "2",
+              "isEditable": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "docGroupId": "10",
+      "docGroupName": "F_PHOTOGRAPH_CROP",
+      "docGroupLabel": "Proprietor's Photo",
+      "tbmand": "1",
+      "idDocGroup": "0",
+      "docList": [
+        {
+          "docId": "10",
+          "docName": "PHOTOGRAPH CROP",
+          "minDocCount": "1",
+          "maxDocCount": "3",
+          "fieldList": [
+            {
+              "fieldName": "Document identification no.",
+              "fdt": "text",
+              "idfr": "3",
+              "isEditable": true
+            },
+            {
+              "fieldName": "Issue authority",
+              "fdt": "text",
+              "idfr": "3",
+              "isEditable": true
+            },
+            {
+              "fieldName": "Country of issue",
+              "fdt": "text",
+              "idfr": "2",
+              "isEditable": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "docGroupId": "11",
+      "docGroupName": "E_SIGNATURE",
+      "docGroupLabel": "Signature",
+      "tbmand": "1",
+      "idDocGroup": "0",
+      "docList": [
+        {
+          "docId": "11",
+          "docName": "SIGNATURE",
+          "minDocCount": "1",
+          "maxDocCount": "3",
+          "fieldList": [
+            {
+              "fieldName": "Document identification no.",
+              "fdt": "text",
+              "idfr": "3",
+              "isEditable": true
+            },
+            {
+              "fieldName": "Issue authority",
+              "fdt": "text",
+              "idfr": "3",
+              "isEditable": true
+            },
+            {
+              "fieldName": "Country of issue",
+              "fdt": "text",
+              "idfr": "2",
+              "isEditable": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "docGroupId": "13",
+      "docGroupName": "O_OTHERS",
+      "docGroupLabel": "Others",
+      "tbmand": "0",
+      "idDocGroup": "0",
+      "docList": [
+        {
+          "docId": "12",
+          "docName": "OTHERS",
+          "minDocCount": "1",
+          "maxDocCount": "3",
+          "fieldList": []
+        }
+      ]
+    },
+    {
+      "docGroupId": "19",
+      "docGroupName": "ACCOUNT_OPENING_PURPOSE_DOCUMENT",
+      "docGroupLabel": "ACCOUNT OPENING PURPOSE DOCUMENT",
+      "tbmand": "1",
+      "idDocGroup": "0",
+      "docList": [
+        {
+          "docId": "37",
+          "docName": "ACCOUNT OPENING PURPOSE DOCUMENT",
+          "minDocCount": "1",
+          "maxDocCount": "3",
+          "fieldList": []
+        }
+      ]
+    }
+  ]
+}
+

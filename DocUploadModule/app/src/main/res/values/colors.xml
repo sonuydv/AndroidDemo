@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#861F41</color>
+    <color name="colorPrimaryDark">@color/colorPrimary</color>
+    <color name="colorAccent">@color/colorPrimary</color>
+    <color name="axis_color_light">#AD2F59</color>
+    <color name="textColor">@color/colorPrimary</color>
+    <color name="colorYellow">#FFC107</color>
+    <color name="success">#009688</color>
+    <color name="white">#ffffff</color>
+    <color name="dk_grey">#FF444444</color>
+    <color name="colorYellowLight">#F7C73D</color>
+    <color name="pureBlack">#000000</color>
+</resources>

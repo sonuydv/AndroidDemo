@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="edd60eb0-2791-4b06-b3b2-94f3def9b86f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../NavViewWithDrawerLayout/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/androidTest/java/com/sonuydv/recyclerviewinnavdrawer/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/java/com/sonuydv/recyclerviewinnavdrawer/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/java/com/sonuydv/recyclerviewinnavdrawer/NaviDrawerAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/java/com/sonuydv/recyclerviewinnavdrawer/NaviMenuItem.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/drawable-v21/ic_menu_camera.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/drawable-v21/ic_menu_gallery.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/drawable-v21/ic_menu_manage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/drawable-v21/ic_menu_send.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/drawable-v21/ic_menu_share.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/drawable-v21/ic_menu_slideshow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/drawable/side_nav_bar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/layout/app_bar_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/layout/content_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/layout/nav_header_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/layout/nav_menu_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/menu/main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/values-v21/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/values-w820dp/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/values/drawables.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/app/src/test/java/com/sonuydv/recyclerviewinnavdrawer/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerViewInNavDrawer/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/androidTest/java/com/sonuydv/viewpager2demo/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/java/com/sonuydv/viewpager2demo/HomeActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/java/com/sonuydv/viewpager2demo/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/java/com/sonuydv/viewpager2demo/PagerAdapterRecyclerView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/java/com/sonuydv/viewpager2demo/PagerFragmentAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/java/com/sonuydv/viewpager2demo/Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/java/com/sonuydv/viewpager2demo/test/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/java/com/sonuydv/viewpager2demo/test/NaviDrawerAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/java/com/sonuydv/viewpager2demo/test/NaviMenuItem.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/res/layout/app_bar_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/res/layout/content_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/res/layout/fragment_page.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/res/layout/nav_header_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/res/layout/nav_menu_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/viewpager2demo/src/test/java/com/sonuydv/viewpager2demo/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPagerDemo/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ViewPagerDemo/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPagerDemo/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ViewPagerDemo/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPagerDemo/app/src/main/java/com/sonuydv/viewpagerdemo/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/src/main/java/com/sonuydv/viewpagerdemo/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPagerDemo/app/src/main/java/com/sonuydv/viewpagerdemo/PagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ViewPagerDemo/app/src/main/java/com/sonuydv/viewpagerdemo/PagerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPagerDemo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ViewPagerDemo/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewPagerDemo/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ViewPagerDemo/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_23" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="valueResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1jDg3AtKswmUFuZAcPSeDJSTbjq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="asus-asus_x01bda-192.168.43.207:5555" />
+    <property name="DEBUGGABLE_PROCESS" value="com.sonuydv.navdrawerwithcustommenu" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.sonuydv.navdrawerwithcustommenu" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sonuydv.navdrawerwithcustommenu" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/sonuydv/navdrawerwithcustommenu/data" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="edd60eb0-2791-4b06-b3b2-94f3def9b86f" name="Default Changelist" comment="" />
+      <created>1603343874091</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603343874091</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="513" y="110" width="374" height="563" key="#com.intellij.ide.util.MemberChooser" timestamp="1603872646003">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state x="513" y="110" width="374" height="563" key="#com.intellij.ide.util.MemberChooser/44.27.1322.741@44.27.1322.741" timestamp="1603872646003" />
+    <state x="457" y="261" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603621046867">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state x="457" y="261" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/44.27.1322.741@44.27.1322.741" timestamp="1603621046867" />
+    <state x="357" y="27" width="686" height="729" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603783822297">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state x="357" y="27" width="686" height="729" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/44.27.1322.741@44.27.1322.741" timestamp="1603783822297" />
+    <state x="725" y="205" key="#xdebugger.evaluate" timestamp="1603694853081">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state x="725" y="205" key="#xdebugger.evaluate/44.27.1322.741@44.27.1322.741" timestamp="1603694853081" />
+    <state x="288" y="155" width="824" height="472" key="AndroidCreateResourceFileDialog" timestamp="1603865305804">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state x="288" y="155" width="824" height="472" key="AndroidCreateResourceFileDialog/44.27.1322.741@44.27.1322.741" timestamp="1603865305804" />
+    <state x="562" y="231" width="277" height="308" key="AndroidCreateXmlResourceDialog" timestamp="1603865968890">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state x="562" y="231" width="277" height="308" key="AndroidCreateXmlResourceDialog/44.27.1322.741@44.27.1322.741" timestamp="1603865968890" />
+    <state x="563" y="166" width="274" height="450" key="AndroidProcessChooserDialog" timestamp="1603869277376">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state x="563" y="166" width="274" height="450" key="AndroidProcessChooserDialog/44.27.1322.741@44.27.1322.741" timestamp="1603869277376" />
+    <state width="1280" height="139" key="GridCell.Tab.0.bottom" timestamp="1603872093659">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state width="1280" height="139" key="GridCell.Tab.0.bottom/44.27.1322.741@44.27.1322.741" timestamp="1603872093659" />
+    <state width="1280" height="139" key="GridCell.Tab.0.center" timestamp="1603872093658">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state width="1280" height="139" key="GridCell.Tab.0.center/44.27.1322.741@44.27.1322.741" timestamp="1603872093658" />
+    <state width="1280" height="139" key="GridCell.Tab.0.left" timestamp="1603872093656">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state width="1280" height="139" key="GridCell.Tab.0.left/44.27.1322.741@44.27.1322.741" timestamp="1603872093656" />
+    <state width="1280" height="139" key="GridCell.Tab.0.right" timestamp="1603872093658">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state width="1280" height="139" key="GridCell.Tab.0.right/44.27.1322.741@44.27.1322.741" timestamp="1603872093658" />
+    <state width="1280" height="225" key="GridCell.Tab.1.bottom" timestamp="1603871877670">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state width="1280" height="225" key="GridCell.Tab.1.bottom/44.27.1322.741@44.27.1322.741" timestamp="1603871877670" />
+    <state width="1280" height="225" key="GridCell.Tab.1.center" timestamp="1603871877667">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state width="1280" height="225" key="GridCell.Tab.1.center/44.27.1322.741@44.27.1322.741" timestamp="1603871877667" />
+    <state width="1280" height="225" key="GridCell.Tab.1.left" timestamp="1603871877666">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state width="1280" height="225" key="GridCell.Tab.1.left/44.27.1322.741@44.27.1322.741" timestamp="1603871877666" />
+    <state width="1280" height="225" key="GridCell.Tab.1.right" timestamp="1603871877668">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state width="1280" height="225" key="GridCell.Tab.1.right/44.27.1322.741@44.27.1322.741" timestamp="1603871877668" />
+    <state x="369" y="179" key="run.anything.popup" timestamp="1603438862866">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state x="369" y="179" key="run.anything.popup/44.27.1322.741@44.27.1322.741" timestamp="1603438862866" />
+    <state x="368" y="88" width="672" height="678" key="search.everywhere.popup" timestamp="1603688119304">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state x="368" y="88" width="672" height="678" key="search.everywhere.popup/44.27.1322.741@44.27.1322.741" timestamp="1603688119304" />
+  </component>
+</project>

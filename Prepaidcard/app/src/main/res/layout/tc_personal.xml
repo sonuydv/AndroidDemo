@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_below="false">
+	<RelativeLayout android:orientation="1" android:id="false" android:background="494949" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1069547520}">
+		<TextView android:textSize="18sp" android:textColor="ffffff" android:gravity="0x10" android:id="false" android:padding="5dp" android:layout_width="-1" android:layout_height="45dp" android:text="Card Details" />
+		<TextView android:textSize="18sp" android:textColor="ffffff" android:gravity="0x10" android:id="false" android:background="861f41" android:padding="5dp" android:layout_width="-1" android:layout_height="45dp" android:text="Personal Details" android:layout_below="false" />
+	</RelativeLayout>
+	<RelativeLayout android:padding="3dp" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1080033280}">
+		<ScrollView android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="3dp" android:fillViewport="true" android:layout_alignParentTop="true">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+				<include android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="3dp" layout="res/layout/aadhaar_section_details.xml" />
+				<include android:layout_width="-1" android:layout_height="-2" layout="res/layout/t_non_aadhaar_details_section.xml" />
+			</LinearLayout>
+		</ScrollView>
+	</RelativeLayout>
+</LinearLayout>

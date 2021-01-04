@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:padding="10dp" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textSize="15sp" android:textColor="000" android:layout_gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="ENTER TEXT" />
+	<EditText android:id="false" android:background="res/drawable/shape_rectangle_2dp_axis_stroke.xml" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:inputType="0x1001" android:paddingStart="5dp" android:paddingEnd="5dp" />
+	<LinearLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+		<Button android:textColor="861f41" android:id="false" android:background="res/drawable/my_button_selector.xml" android:layout_width="0dp" android:layout_height="45dp" android:text="Cancel" android:layout_weight="{4:1065353216}" />
+		<Button android:textColor="861f41" android:id="false" android:background="res/drawable/my_button_selector.xml" android:layout_width="0dp" android:layout_height="45dp" android:text="Done" android:layout_weight="{4:1065353216}" android:layout_marginStart="5dp" />
+	</LinearLayout>
+</LinearLayout>

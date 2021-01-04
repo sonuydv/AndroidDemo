@@ -32,6 +32,10 @@ public class MainActivity extends AppCompatActivity {
 
         //init pageAdapter
         //behaviour how many fragment should be in resume state
+        /*
+        * By Default view pager horizotally behaviour added swiping left ritght will
+        * change the pages
+        * */
         mPagerAdapter=new PagerAdapter(getSupportFragmentManager(),msgList.length, Arrays.asList(msgList));
         mViewPager.setAdapter(mPagerAdapter);
         tabLayout.setupWithViewPager(mViewPager);

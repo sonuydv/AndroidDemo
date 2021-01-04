@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+		<com.google.android.material.appbar.AppBarLayout android:theme="resourceId:0x7f120009" android:id="false" android:layout_width="-1" android:layout_height="-2">
+			<androidx.appcompat.widget.Toolbar android:id="false" android:background="861f41" android:layout_width="-1" android:layout_height="{2:2130968579}" app:popupTheme="resourceId:0x7f12000c" />
+		</com.google.android.material.appbar.AppBarLayout>
+		<RelativeLayout android:id="false" android:background="861f41" android:layout_width="-1" android:layout_height="600dp" android:layout_centerInParent="true">
+			<LinearLayout android:orientation="1" android:visibility="0" android:layout_width="625dp" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+				<RadioGroup android:layout_gravity="0x1" android:orientation="1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="7dp">
+					<RadioButton android:textSize="15sp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="I am voluntarily using my Aadhaar and I provide my consent for authenticating myself through Aadhaar based authentication system for the purpose of establishing my identity." android:buttonTint="ffffff" style="resourceId:0x7f1200b2" />
+					<RadioButton android:textSize="15sp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:text="I want to buy Axis Bank FASTag without Aadhar Authentication." android:buttonTint="ffffff" style="resourceId:0x7f1200b2" />
+				</RadioGroup>
+				<Button android:textColor="861f41" android:layout_gravity="0x1" android:id="false" android:background="res/drawable/my_button_selector.xml" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="30dp" android:text="Proceed" />
+			</LinearLayout>
+		</RelativeLayout>
+	</RelativeLayout>
+	<com.google.android.material.navigation.NavigationView android:layout_gravity="0x800003" android:id="false" android:background="861f41" android:fitsSystemWindows="true" android:layout_width="-2" android:layout_height="-1" app:headerLayout="res/layout/nav_header_id_proof.xml" app:itemIconTint="resourceId:0x106000b" app:itemTextColor="resourceId:0x106000b" app:menu="res/menu/three_in_one_drawer_menu.xml" />
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1">
+		<android.support.design.widget.AppBarLayout android:theme="resourceId:0x7f120009" android:id="false" android:layout_width="-1" android:layout_height="-2">
+			<android.support.v7.widget.Toolbar android:id="false" android:background="861f41" android:layout_width="-1" android:layout_height="{2:2130968579}" app:popupTheme="resourceId:0x7f12000c" />
+		</android.support.design.widget.AppBarLayout>
+		<ScrollView android:id="false" android:background="res/drawable-xhdpi-v4/blank_bg.png" android:layout_width="-1" android:layout_height="-1" android:fillViewport="false">
+			<FrameLayout android:background="resourceId:0x106000d" android:layout_width="-1" android:layout_height="-1">
+				<LinearLayout android:gravity="0x11" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+					<LinearLayout android:gravity="0x51" android:orientation="0" android:id="false" android:focusableInTouchMode="true" android:descendantFocusability="0" android:layout_width="-1" android:layout_height="-2">
+						<ImageView android:id="false" android:background="a9a9a9" android:layout_width="150dp" android:layout_height="200dp" android:layout_marginTop="20dp" />
+						<Button android:textStyle="0x1" android:textColor="861f41" android:id="false" android:background="res/drawable/my_button_selector.xml" android:padding="10dp" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginRight="16dp" android:text="Scan Finger" style="{2:16842818}" />
+					</LinearLayout>
+					<TextView android:textSize="22sp" android:textStyle="0x3" android:textColor="861f41" android:gravity="0x1" android:id="false" android:paddingLeft="15dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_margin="3dp" />
+					<LinearLayout android:orientation="0" android:id="false" android:background="res/drawable/white_iv_border.xml" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="25dp">
+						<LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+							<TextView android:textSize="22sp" android:textStyle="0x3" android:textColor="861f41" android:paddingLeft="15dp" android:layout_width="-1" android:layout_height="-2" android:text="Aadhaar No" />
+							<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:paddingLeft="15dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp" />
+							<TextView android:textSize="22sp" android:textStyle="0x3" android:textColor="861f41" android:paddingLeft="15dp" android:layout_width="-1" android:layout_height="-2" android:text="Name" />
+							<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:paddingLeft="15dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp" />
+							<TextView android:textSize="22sp" android:textStyle="0x3" android:textColor="861f41" android:paddingLeft="15dp" android:layout_width="-1" android:layout_height="-2" android:text="DOB" />
+							<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:paddingLeft="15dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp" />
+							<TextView android:textSize="22sp" android:textStyle="0x3" android:textColor="861f41" android:paddingLeft="15dp" android:layout_width="-1" android:layout_height="-2" android:text="Gender" />
+							<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:paddingLeft="15dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp" />
+							<TextView android:textSize="22sp" android:textStyle="0x3" android:textColor="861f41" android:paddingLeft="15dp" android:layout_width="-1" android:layout_height="-2" android:text="Father Name" />
+							<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:paddingLeft="15dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp" />
+							<TextView android:textSize="22sp" android:textStyle="0x3" android:textColor="861f41" android:paddingLeft="15dp" android:layout_width="-1" android:layout_height="-2" android:text="Mobile No" />
+							<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:paddingLeft="15dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp" />
+							<TextView android:textSize="22sp" android:textStyle="0x3" android:textColor="861f41" android:paddingLeft="15dp" android:layout_width="-1" android:layout_height="-2" android:text="Email" />
+							<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:paddingLeft="15dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp" />
+							<TextView android:textSize="22sp" android:textStyle="0x3" android:textColor="861f41" android:paddingLeft="15dp" android:layout_width="-1" android:layout_height="-2" android:text="Address" />
+							<TextView android:textSize="18sp" android:textColor="000" android:id="false" android:paddingLeft="15dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp" />
+						</LinearLayout>
+						<LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+							<LinearLayout android:orientation="1" android:background="res/drawable/burgundy_bg_border.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="15dp">
+								<ImageView android:id="false" android:layout_width="-1" android:layout_height="280dp" android:layout_marginLeft="50dp" android:layout_marginTop="5dp" android:layout_marginRight="50dp" android:layout_marginBottom="5dp" android:scaleType="3" />
+							</LinearLayout>
+							<LinearLayout android:orientation="1" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2">
+								<CheckBox android:textColor="861f41" android:id="false" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="8dp" android:checked="true" android:text="E-kyc as Id Proof" />
+								<CheckBox android:textColor="861f41" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="8dp" android:text="E-kyc as Communication Address Proof" />
+								<CheckBox android:textColor="861f41" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="8dp" android:text="Ekyc As Permanent Address Proof" />
+							</LinearLayout>
+						</LinearLayout>
+					</LinearLayout>
+					<Button android:textStyle="0x1" android:textColor="861f41" android:id="false" android:background="res/drawable/my_button_selector.xml" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="200dp" android:layout_marginTop="25dp" android:layout_marginRight="200dp" android:layout_marginBottom="20dp" android:text="Next" style="{2:16842818}" />
+				</LinearLayout>
+				<LinearLayout android:gravity="0x11" android:id="false" android:background="80ffffff" android:focusable="true" android:visibility="2" android:clickable="true" android:layout_width="-1" android:layout_height="-1">
+					<ProgressBar android:layout_width="-2" android:layout_height="-2" style="{2:16842874}" />
+				</LinearLayout>
+			</FrameLayout>
+		</ScrollView>
+	</LinearLayout>
+	<android.support.design.widget.NavigationView android:layout_gravity="0x800003" android:id="false" android:background="861f41" android:visibility="2" android:fitsSystemWindows="true" android:layout_width="-2" android:layout_height="-1" app:headerLayout="res/layout/nav_header_id_proof.xml" app:itemIconTint="resourceId:0x106000b" app:itemTextColor="resourceId:0x106000b" app:menu="res/menu/three_in_one_drawer_menu.xml" />
+</android.support.v4.widget.DrawerLayout>

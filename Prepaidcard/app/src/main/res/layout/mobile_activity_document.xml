@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-1">
+		<include layout="res/layout/layout_appbar.xml" />
+		<RelativeLayout android:id="false" android:background="861f41" android:padding="3dp" android:layout_width="-1" android:layout_height="{2:2130968579}" android:layout_below="false" app:layout_constraintTop_toTopOf="0">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x800003" android:id="false" android:padding="10dp" android:layout_width="-2" android:layout_height="-2" android:text="Documents Upload" android:layout_alignParentStart="true" />
+			<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:padding="3dp" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentEnd="true" />
+		</RelativeLayout>
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1" android:weightSum="{4:1084227584}" android:layout_below="false">
+			<androidx.recyclerview.widget.RecyclerView android:orientation="1" android:id="false" android:background="494949" android:layout_width="-1" android:layout_height="-1" android:layout_weight="{4:1080033280}" />
+			<FrameLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_weight="{4:1069547520}" />
+		</LinearLayout>
+	</RelativeLayout>
+	<include layout="res/layout/sidebar.xml" />
+</androidx.drawerlayout.widget.DrawerLayout>

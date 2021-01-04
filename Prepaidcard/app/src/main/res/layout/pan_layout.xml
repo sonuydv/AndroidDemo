@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_margin="3dp">
+	<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="3dp" style="resourceId:0x7f1200f8">
+		<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:enabled="false" android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:text="Do you have PAN?" />
+	</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+	<RadioGroup android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16dp" android:textAlignment="4" android:layout_marginEnd="7dp" android:layout_alignParentEnd="true">
+		<RadioButton android:textSize="10sp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Yes" android:layout_weight="{4:1065353216}" android:layout_marginEnd="7dp" style="resourceId:0x7f1200b2" />
+		<RadioButton android:textSize="10sp" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="No" android:layout_weight="{4:1065353216}" style="resourceId:0x7f1200b2" />
+	</RadioGroup>
+	<RelativeLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_margin="3dp" android:layout_below="false">
+		<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="150dp" android:layout_height="-2" android:layout_marginEnd="6dp" android:layout_alignParentStart="true" style="resourceId:0x7f1200f8">
+			<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="Enter your PAN*" android:maxLength="10" android:inputType="0x1001" android:imeOptions="0x6" />
+		</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+		<android.form.avss.prepaidcard.ui.custom_classes.CustomButton android:textSize="10sp" android:id="false" android:layout_width="-2" android:layout_height="30dp" android:layout_marginTop="25dp" android:text="Validate" android:layout_centerInParent="true" android:layout_alignParentEnd="true" />
+	</RelativeLayout>
+	<RelativeLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_margin="3dp" android:layout_below="false">
+		<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="3dp" android:layout_alignParentStart="true" style="resourceId:0x7f1200f8">
+			<android.form.avss.prepaidcard.ui.custom_classes.CustomSpinner android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="Please Select" />
+		</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+		<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_below="false" style="resourceId:0x7f1200f8">
+			<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="10sp" android:textColor="861f41" android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Agricultural Income (Rs.)" android:maxLength="10" android:inputType="0x2002" android:imeOptions="0x6" />
+		</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+		<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_below="false" style="resourceId:0x7f1200f8">
+			<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="10sp" android:textColor="861f41" android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Non Agricultural Income (Rs.)" android:maxLength="10" android:inputType="0x2002" android:imeOptions="0x6" />
+		</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+		<RelativeLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="6dp" android:layout_below="false">
+			<RelativeLayout android:id="false" android:layout_width="-2" android:layout_height="-2">
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" style="resourceId:0x7f1200f8">
+					<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="10sp" android:textColor="861f41" android:id="false" android:focusable="false" android:layout_width="-1" android:layout_height="-2" android:hint="Application Date*" android:textIsSelectable="true" />
+				</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+				<ImageView android:id="false" android:layout_width="25dp" android:layout_height="25dp" android:layout_marginTop="7dp" android:src="res/drawable/ic_calender.xml" android:layout_marginEnd="7dp" android:layout_alignParentEnd="true" />
+			</RelativeLayout>
+			<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_below="false" style="resourceId:0x7f1200f8">
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="Acknowledgement Number*" android:maxLength="15" android:inputType="0x2" android:imeOptions="0x6" />
+			</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+		</RelativeLayout>
+	</RelativeLayout>
+</RelativeLayout>

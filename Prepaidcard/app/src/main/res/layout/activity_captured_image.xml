@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:background="000" android:layout_width="-1" android:layout_height="-1">
+	<com.google.android.material.appbar.AppBarLayout android:theme="resourceId:0x7f120009" android:id="false" android:layout_width="-1" android:layout_height="-2">
+		<androidx.appcompat.widget.Toolbar android:id="false" android:background="861f41" android:layout_width="-1" android:layout_height="{2:16843499}" app:popupTheme="resourceId:0x7f12000c" app:titleTextColor="resourceId:0x106000b" />
+	</com.google.android.material.appbar.AppBarLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:background="resourceId:0x106000b" android:layout_width="-1" android:layout_height="-2" android:baselineAligned="false" android:layout_alignParentBottom="true" android:showDividers="0x2" android:dividerPadding="4dp" android:layout_alignParentStart="true">
+		<include android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" layout="res/layout/image_preview_option.xml" />
+		<include android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" layout="res/layout/image_preview_option.xml" />
+	</LinearLayout>
+</RelativeLayout>

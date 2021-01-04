@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.navigation.NavigationView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_gravity="0x800003" android:id="false" android:background="861f41" android:fitsSystemWindows="true" android:layout_width="220dp" android:layout_height="-1" app:headerLayout="res/layout/nav_header_id_proof.xml" app:itemIconTint="resourceId:0x106000b" app:itemTextColor="resourceId:0x106000b" app:menu="res/menu/three_in_one_drawer_menu.xml">
+	<LinearLayout android:gravity="0x50" android:orientation="1" android:padding="6dp" android:layout_width="-1" android:layout_height="-1">
+		<TextView android:textSize="14sp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10dp" android:hint="Axis_Bank_APK_Version" />
+		<TextView android:textSize="14sp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:hint="Axis_Bank_APK_Version" />
+	</LinearLayout>
+</com.google.android.material.navigation.NavigationView>

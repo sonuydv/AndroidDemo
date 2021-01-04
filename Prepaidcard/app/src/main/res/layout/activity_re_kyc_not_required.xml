@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+		<com.google.android.material.appbar.AppBarLayout android:theme="resourceId:0x7f120009" android:id="false" android:layout_width="-1" android:layout_height="-2">
+			<include layout="res/layout/layout_appbar.xml" />
+		</com.google.android.material.appbar.AppBarLayout>
+		<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:scrollbarStyle="16777216" android:scrollbars="0x200" android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:orientation="1" android:padding="3dp" android:layout_width="-1" android:layout_height="-1">
+				<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:background="861f41" android:layout_width="-1" android:layout_height="40dp" android:text="Applicant Details" />
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" style="resourceId:0x7f1200f8">
+					<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="3dp" android:hint="Applicant Full Name" android:inputType="0x1001" android:imeOptions="0x5" />
+				</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" style="resourceId:0x7f1200f8">
+					<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="Applicant DOB" android:inputType="0x1001" android:imeOptions="0x5" />
+				</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" style="resourceId:0x7f1200f8">
+					<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="Applicant Gender" android:inputType="0x1001" android:imeOptions="0x5" />
+				</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" style="resourceId:0x7f1200f8">
+					<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="PAN Number" android:inputType="0x1001" android:imeOptions="0x5" />
+				</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="3dp" android:layout_below="false" style="resourceId:0x7f1200f8">
+					<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="Mobile No*" android:maxLength="10" android:inputType="0x2" android:imeOptions="0x6" />
+				</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" style="resourceId:0x7f1200f8">
+					<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="Account Number" android:inputType="0x1001" android:imeOptions="0x5" />
+				</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" style="resourceId:0x7f1200f8">
+					<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="Customer Id" android:inputType="0x1001" android:imeOptions="0x5" />
+				</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+				<TextView android:textSize="10sp" android:textStyle="0x1" android:textColor="99000" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Communication Address : " />
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" style="resourceId:0x7f1200f8">
+					<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="Address Line1" android:inputType="0x1001" android:imeOptions="0x5" />
+				</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" style="resourceId:0x7f1200f8">
+					<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="Address Line2" android:inputType="0x1001" android:imeOptions="0x5" />
+				</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" style="resourceId:0x7f1200f8">
+					<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="Land Mark" android:inputType="0x1001" android:imeOptions="0x5" />
+				</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" style="resourceId:0x7f1200f8">
+					<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="City" android:inputType="0x1001" android:imeOptions="0x5" />
+				</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" style="resourceId:0x7f1200f8">
+					<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="Country" android:inputType="0x1001" android:imeOptions="0x5" />
+				</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" style="resourceId:0x7f1200f8">
+					<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="State" android:inputType="0x1001" android:imeOptions="0x5" />
+				</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" style="resourceId:0x7f1200f8">
+					<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="Pin Code" android:inputType="0x1001" android:imeOptions="0x5" />
+				</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+				<TextView android:textSize="10sp" android:textStyle="0x1" android:textColor="99000" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Permanent Address : " />
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" style="resourceId:0x7f1200f8">
+					<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="Address Line1" android:inputType="0x1001" android:imeOptions="0x5" />
+				</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" style="resourceId:0x7f1200f8">
+					<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="Address Line2" android:inputType="0x1001" android:imeOptions="0x5" />
+				</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" style="resourceId:0x7f1200f8">
+					<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="Land Mark" android:inputType="0x1001" android:imeOptions="0x5" />
+				</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" style="resourceId:0x7f1200f8">
+					<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="City" android:inputType="0x1001" android:imeOptions="0x5" />
+				</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" style="resourceId:0x7f1200f8">
+					<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="Country" android:inputType="0x1001" android:imeOptions="0x5" />
+				</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" style="resourceId:0x7f1200f8">
+					<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="State" android:inputType="0x1001" android:imeOptions="0x5" />
+				</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" style="resourceId:0x7f1200f8">
+					<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="Pin Code" android:inputType="0x1001" android:imeOptions="0x5" />
+				</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="3dp" style="resourceId:0x7f1200f8">
+					<android.form.avss.prepaidcard.ui.custom_classes.CustomSpinner android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="Card Type*" />
+				</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="3dp" android:layout_below="false" style="resourceId:0x7f1200f8">
+					<android.form.avss.prepaidcard.ui.custom_classes.CustomSpinner android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="Product Code*" />
+				</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="3dp" android:layout_below="false" style="resourceId:0x7f1200f8">
+					<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="Card Number*" android:inputType="0x2" android:imeOptions="0x5" />
+				</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+				<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1065353216}" android:layout_below="false">
+					<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="3dp" android:layout_weight="{4:1045220557}" style="resourceId:0x7f1200f8">
+						<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="10sp" android:textColor="861f41" android:layout_width="-1" android:layout_height="-2" android:hint="CRN Number*" android:inputType="0x2" android:imeOptions="0x5" />
+					</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+					<Button android:textSize="10sp" android:textStyle="0x1" android:layout_gravity="0x10" android:id="false" android:background="res/drawable/my_button_selector.xml" android:layout_width="-1" android:layout_height="25dp" android:layout_marginTop="3dp" android:layout_marginRight="10dp" android:text="Scan" android:layout_weight="{4:1061997773}" android:layout_toRightOf="false" android:textAllCaps="false" />
+				</LinearLayout>
+				<include layout="res/layout/mc_payment_layout.xml" />
+			</LinearLayout>
+		</ScrollView>
+	</LinearLayout>
+	<include layout="res/layout/sidebar.xml" />
+</androidx.drawerlayout.widget.DrawerLayout>

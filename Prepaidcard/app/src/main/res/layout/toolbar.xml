@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android" android:theme="resourceId:0x7f120009" android:layout_width="-1" android:layout_height="-2">
+	<androidx.appcompat.widget.Toolbar android:id="false" android:background="861f41" android:layout_width="-1" android:layout_height="{2:2130968579}" app:popupTheme="resourceId:0x7f12000c" />
+</com.google.android.material.appbar.AppBarLayout>

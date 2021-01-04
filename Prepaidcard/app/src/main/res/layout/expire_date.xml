@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="3dp">
+	<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:background="resourceId:0x106000d" android:layout_width="-1" android:layout_height="-2" style="resourceId:0x7f1200f8">
+		<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textColor="861f41" android:id="false" android:focusable="false" android:layout_width="-1" android:layout_height="-2" android:hint="" android:inputType="0x0" android:textIsSelectable="true" />
+	</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+	<ImageView android:id="false" android:layout_width="25dp" android:layout_height="25dp" android:layout_marginTop="10dp" android:src="res/drawable/ic_calender.xml" android:layout_marginEnd="10dp" android:layout_alignParentEnd="true" />
+</RelativeLayout>

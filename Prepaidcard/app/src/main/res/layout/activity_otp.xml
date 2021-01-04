@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="ffffff" android:layout_width="-1" android:layout_height="-2" style="resourceId:0x7f1200f7">
+	<RelativeLayout android:id="false" android:layout_width="-2" android:layout_height="-2">
+		<RelativeLayout android:gravity="0x11" android:orientation="1" android:id="false" android:padding="20dp" android:layout_width="-1" android:layout_height="-2" android:layout_centerVertical="true">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="861f41" android:gravity="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="7dp" android:text="" />
+			<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:enabled="true" android:textColorHint="787878" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="50dp" app:hintTextAppearance="resourceId:0x7f1200f8">
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textColor="000" android:gravity="0x11" android:id="false" android:padding="10dp" android:paddingTop="10dp" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:longClickable="false" android:layout_width="-1" android:layout_height="60dp" android:layout_marginLeft="70dp" android:layout_marginRight="70dp" android:hint="Enter OTP" android:maxLines="1" android:singleLine="true" android:maxLength="6" android:inputType="0x12" android:imeOptions="0x5" />
+			</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+			<RelativeLayout android:id="false" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_below="false" android:layout_alignStart="false">
+				<RelativeLayout android:gravity="0x11" android:orientation="0" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2">
+					<Button android:textStyle="0x1" android:textColor="861f41" android:id="false" android:background="res/drawable/my_button_selector.xml" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:text="Submit" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" style="{2:16842818}" />
+					<Button android:textStyle="0x1" android:textColor="861f41" android:id="false" android:background="res/drawable/my_button_selector.xml" android:padding="10dp" android:layout_width="-2" android:layout_height="-2" android:text="Resend OTP" android:layout_toRightOf="false" style="{2:16842818}" />
+				</RelativeLayout>
+				<LinearLayout android:gravity="0x5" android:orientation="0" android:id="false" android:paddingLeft="6dp" android:layout_width="-1" android:layout_height="-2" android:layout_below="false">
+					<TextView android:textColor="861f41" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Remaining Attempts: " />
+					<TextView android:textColor="861f41" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="3" android:layout_toRightOf="false" />
+				</LinearLayout>
+			</RelativeLayout>
+		</RelativeLayout>
+		<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="861f41" android:gravity="0x11" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="40dp" android:text="No Attempt Left" />
+	</RelativeLayout>
+	<Button android:textStyle="0x1" android:textColor="861f41" android:id="false" android:background="res/drawable/my_button_selector.xml" android:padding="10dp" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="30dp" android:layout_marginBottom="20dp" android:text="GO TO DASHBOARD" android:layout_below="false" android:layout_centerHorizontal="true" style="{2:16842818}" />
+</RelativeLayout>

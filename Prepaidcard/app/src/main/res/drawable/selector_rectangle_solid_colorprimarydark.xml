@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_pressed="true" android:drawable="res/drawable/shape_rectangle_1dp_grey_stroke__solid_color__3dp_corner.xml" />
+	<item android:state_pressed="false" android:drawable="res/drawable/shape_rectangle_solid_colorprimarydark.xml" />
+	<item android:drawable="res/drawable/shape_rectangle_solid_colorprimarydark.xml" />
+</selector>

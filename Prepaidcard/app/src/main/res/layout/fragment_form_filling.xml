@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+		<android.form.avss.prepaidcard.ihmf_form_fill.ui.zoomlayout.ZoomLayout android:id="false" android:background="eeeeee" android:visibility="0" android:layout_width="-1" android:layout_height="-1">
+			<FrameLayout android:id="false" android:focusable="false" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-1" />
+		</android.form.avss.prepaidcard.ihmf_form_fill.ui.zoomlayout.ZoomLayout>
+		<RelativeLayout android:id="false" android:background="res/drawable-xhdpi-v4/background_vertical_scrollbar_path.xml" android:visibility="2" android:layout_width="5dp" android:layout_height="-1" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:layout_alignParentEnd="true">
+			<View android:id="false" android:background="res/drawable-xhdpi-v4/background_scrollbar.xml" android:layout_width="-1" android:layout_height="-1" />
+		</RelativeLayout>
+	</RelativeLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+		<ProgressBar android:layout_gravity="0x1" android:layout_width="-2" android:layout_height="-2" />
+		<TextView android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" android:text="Please Wait…" />
+	</LinearLayout>
+	<ScrollView android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+	<RelativeLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+		<include android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="20dp" layout="res/layout/recycler_master.xml" />
+	</RelativeLayout>
+</RelativeLayout>

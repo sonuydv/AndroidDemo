@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+		<com.google.android.material.appbar.AppBarLayout android:theme="resourceId:0x7f120009" android:id="false" android:layout_width="-1" android:layout_height="-2">
+			<androidx.appcompat.widget.Toolbar android:id="false" android:background="861f41" android:layout_width="-1" android:layout_height="{2:2130968579}" app:popupTheme="resourceId:0x7f12000c" />
+		</com.google.android.material.appbar.AppBarLayout>
+		<RelativeLayout android:id="false" android:background="res/drawable/bg_page_outer_line.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="7dp" android:layout_marginRight="7dp" android:layout_centerVertical="true">
+			<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="3dp" style="resourceId:0x7f1200f8">
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textColor="861f41" android:textColorHint="000" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="7dp" android:layout_marginRight="20dp" android:hint="Enter VRN*" android:maxLength="14" android:inputType="0x1001" />
+			</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+			<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="3dp" android:layout_below="false" style="resourceId:0x7f1200f8">
+				<android.form.avss.prepaidcard.ui.custom_classes.CustomSpinner android:textColor="861f41" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="7dp" android:layout_marginRight="20dp" />
+			</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>
+			<Button android:textColor="861f41" android:id="false" android:background="res/drawable/my_button_selector.xml" android:layout_width="200dp" android:layout_height="-2" android:layout_marginTop="20dp" android:text="Proceed" android:layout_below="false" android:layout_centerInParent="true" />
+			<View android:layout_width="-1" android:layout_height="30dp" android:layout_below="false" />
+		</RelativeLayout>
+	</RelativeLayout>
+	<com.google.android.material.navigation.NavigationView android:layout_gravity="0x800003" android:id="false" android:background="861f41" android:fitsSystemWindows="true" android:layout_width="-2" android:layout_height="-1" app:headerLayout="res/layout/nav_header_id_proof.xml" app:itemIconTint="resourceId:0x106000b" app:itemTextColor="resourceId:0x106000b" app:menu="res/menu/three_in_one_drawer_menu.xml" />
+</androidx.drawerlayout.widget.DrawerLayout>

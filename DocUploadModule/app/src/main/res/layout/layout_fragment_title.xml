@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/axis_color_light">
+
+        <ImageView
+            android:id="@+id/ic_previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_previous"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/page_title_tv"
+            android:layout_toEndOf="@+id/ic_previous"
+            android:layout_toStartOf="@+id/ic_next"
+            tools:text="FRAGMENT TITLE"
+            style="@style/MyHeadingAppearance" />
+
+        <ImageView
+            android:id="@+id/ic_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_previous"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:rotation="180"
+            android:clickable="true"
+            android:focusable="true"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</layout>

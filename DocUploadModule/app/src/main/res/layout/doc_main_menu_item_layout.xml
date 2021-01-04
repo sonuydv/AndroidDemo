@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:selectableItemBackground">
+    <RelativeLayout
+        android:id="@+id/rl_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+        <TextView
+            android:id="@+id/nav_menu_title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Sample text"
+            android:padding="12dp"
+            android:layout_toStartOf="@+id/iv_status"
+            android:textColor="@color/section_drawable"
+            android:textSize="16sp"/>
+        <ImageView
+            android:id="@+id/iv_status"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:scaleType="fitXY"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_centerVertical="true"
+            android:visibility="visible"
+            tools:src="@drawable/ic_completed"/>
+        <View
+            android:id="@+id/view_separator"
+            android:layout_width="wrap_content"
+            android:layout_height="1.1dp"
+            android:layout_below="@+id/nav_menu_title_tv"
+            android:background="@color/white"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

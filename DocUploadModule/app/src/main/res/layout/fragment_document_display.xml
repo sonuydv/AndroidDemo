@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <include
+            android:id="@+id/layout_title"
+            layout="@layout/layout_fragment_title"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/rv_images"
+            android:layout_below="@+id/ll_info"
+            android:layout_above="@+id/ll_controlButtons"/>
+
+        <LinearLayout
+            android:id="@+id/ll_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_title"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/tv_minCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Min: 2"
+                android:textStyle="bold" />
+<!--                android:textColor="@color/hint_text_color"-->
+
+
+            <TextView
+                android:id="@+id/tv_maxCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                tools:text="Max: 2"
+                android:textStyle="bold"/>
+<!--                android:textColor="@color/hint_text_color"-->
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_controlButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fb_skip"
+                android:visibility="visible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_skip_text"/>
+
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/fb_tick"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_check_white_24dp"
+                />
+
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fb_camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_camera_white" />
+
+
+            <RelativeLayout
+                android:id="@+id/btn_reject"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fbtn_cross"
+                    android:visibility="visible"
+                    android:layout_width="wrap_content"
+                    android:backgroundTint="@color/axis_color_light"
+                    android:layout_height="wrap_content"  />
+<!--                    android:src="@drawable/cross_white"-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="REJECT"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/fbtn_cross"
+                    android:elevation="5dp"/>
+<!--                    android:textColor="@color/dark_red"-->
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</layout>

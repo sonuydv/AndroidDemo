@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="40f1b965" android:layout_width="-1" android:layout_height="-2">
+	<include android:id="false" android:layout_width="-1" android:layout_height="-2" layout="res/layout/recycler_master.xml" />
+</androidx.constraintlayout.widget.ConstraintLayout>

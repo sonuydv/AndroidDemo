@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="270dp" android:layout_height="-2" style="resourceId:0x7f1200f8">
+	<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textSize="12sp" android:textColor="861f41" android:id="false" android:layout_width="-1" android:layout_height="-2" android:maxLength="12" android:inputType="0x2" android:imeOptions="0x6" />
+</android.form.avss.prepaidcard.ui.custom_classes.CustomTextInputLayout>

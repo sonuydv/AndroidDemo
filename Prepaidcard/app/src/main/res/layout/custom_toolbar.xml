@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:id="false" android:background="861f41" android:padding="3dp" android:layout_width="-1" android:layout_height="{2:16843499}">
+	<RelativeLayout android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:orientation="1" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginEnd="10dp" android:layout_toStartOf="false">
+			<TextView android:textSize="14sp" android:textColor="ffffff" android:ellipsize="3" android:id="false" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" />
+			<TextView android:textSize="10sp" android:textColor="ffffff" android:id="false" android:visibility="0" android:layout_width="-2" android:layout_height="-2" />
+			<Button android:layout_gravity="0x11" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="NEXT" />
+		</LinearLayout>
+		<TextView android:textColor="ffffff" android:id="false" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:text="PREVIEW MODE " android:layout_centerVertical="true" android:layout_marginEnd="10dp" android:layout_toStartOf="false" />
+		<LinearLayout android:orientation="0" android:id="false" android:visibility="0" android:layout_width="-2" android:layout_height="-1" android:weightSum="{4:1077936128}" android:layout_toStartOf="false">
+			<ImageView android:id="false" android:visibility="2" android:layout_width="0dp" android:layout_height="-1" android:layout_margin="2dp" android:src="res/drawable/ic_filter_list_white_24dp.xml" android:layout_weight="{4:1065353216}" />
+			<ImageView android:id="false" android:visibility="2" android:layout_width="0dp" android:layout_height="-1" android:layout_margin="2dp" android:src="res/drawable/ic_drafts_white_24dp.xml" android:layout_weight="{4:1065353216}" />
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_marginStart="2dp" android:layout_marginEnd="10dp" android:layout_alignParentEnd="true">
+			<Button android:textColor="ffffff" android:layout_gravity="0x10" android:id="false" android:background="res/drawable/shape_rectangle_point2dp_white_stroke.xml" android:visibility="2" android:layout_width="-2" android:layout_height="34dp" android:text="EDIT" />
+			<RelativeLayout android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_marginStart="10dp" android:layout_marginEnd="10dp">
+				<ImageButton android:textColor="ffffff" android:id="false" android:background="res/drawable/selector_oval_solid_colorprimarydark.xml" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable/arrow_left_white_24dp.xml" android:layout_centerVertical="true" />
+				<TextView android:textSize="10sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_margin="10dp" android:layout_centerVertical="true" android:layout_toEndOf="false" />
+				<ImageButton android:id="false" android:background="res/drawable/selector_oval_solid_colorprimarydark.xml" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable/arrow_right_white_24dp.xml" android:layout_centerInParent="true" android:layout_toEndOf="false" />
+			</RelativeLayout>
+			<Button android:textSize="14sp" android:textColor="861f41" android:layout_gravity="0x10" android:id="false" android:background="res/drawable/my_button_selector.xml" android:paddingLeft="3dp" android:visibility="0" android:layout_width="-2" android:layout_height="32dp" android:layout_margin="2dp" android:src="res/drawable/ic_send_white_24dp.xml" android:text="SUBMIT" android:layout_marginEnd="10dp" />
+		</LinearLayout>
+	</RelativeLayout>
+	<RelativeLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+		<com.google.android.material.floatingactionbutton.FloatingActionButton android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable/arrow_left_white_24dp.xml" android:layout_marginStart="30dp" android:layout_alignParentStart="true" app:backgroundTint="78909c" app:borderWidth="0dp" app:fabSize="1" />
+		<TextView android:textSize="10dp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp" android:text="RESIZE" android:layout_marginStart="5dp" android:layout_marginEnd="5dp" android:layout_toEndOf="false" />
+		<com.google.android.material.floatingactionbutton.FloatingActionButton android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable/arrow_right_white_24dp.xml" android:layout_toEndOf="false" app:backgroundTint="78909c" app:borderWidth="0dp" app:fabSize="1" />
+		<Button android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="OK" android:layout_toStartOf="false" />
+		<Button android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Delete" android:layout_marginEnd="20dp" android:layout_alignParentEnd="true" />
+	</RelativeLayout>
+</LinearLayout>

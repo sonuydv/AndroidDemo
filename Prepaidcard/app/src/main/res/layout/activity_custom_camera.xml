@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1">
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-1">
+		<TextureView android:id="false" android:layout_width="-1" android:layout_height="-2" />
+	</FrameLayout>
+	<View android:id="false" android:background="res/drawable/white_iv_border.xml" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="50dp" android:layout_marginBottom="100dp" android:layout_centerInParent="true" android:layout_marginStart="50dp" android:layout_marginEnd="50dp" />
+	<TextView android:textSize="20sp" android:textColor="ffffff" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20dp" android:layout_marginBottom="15dp" android:text="Keep the face inside guider while clicking customer photograph" android:textAlignment="4" android:layout_marginStart="50dp" android:layout_marginEnd="50dp" />
+	<View android:id="false" android:background="res/drawable/ic_face_shape.xml" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" android:layout_marginStart="50dp" android:layout_marginEnd="50dp" />
+	<Button android:textColor="ffffff" android:id="false" android:background="861f41" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="50dp" android:layout_marginRight="50dp" android:layout_marginBottom="10dp" android:text="Take Picture" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+	<ProgressBar android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+</RelativeLayout>

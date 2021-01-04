@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textSize="20sp" android:textColor="000" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="This application will not run on this device, because this device is rooted" android:textAlignment="4" />
+</RelativeLayout>

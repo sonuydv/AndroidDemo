@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="res/drawable/selector_rectangle_solid_colorprimarydark.xml" android:layout_width="-1" android:layout_height="70dp" android:layout_margin="81920unknown unit:0x21">
+	<TextView android:textSize="17sp" android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="SECTION 1" android:layout_centerInParent="true" android:textAlignment="4" />
+</RelativeLayout>

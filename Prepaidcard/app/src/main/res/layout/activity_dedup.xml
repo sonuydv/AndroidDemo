@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="0x10" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_above="false">
+	<TextView android:textSize="20sp" android:textStyle="0x1" android:textColor="000" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="title" />
+	<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="494949" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20dp" android:text="lable" />
+	<LinearLayout android:orientation="0" android:background="res/drawable/cust_bg.png" android:layout_width="-1" android:layout_height="250dp" android:layout_margin="2dp">
+		<RelativeLayout android:gravity="0x800003" android:layout_gravity="0x1" android:id="false" android:paddingLeft="6dp" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1084227584}">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="ffffff" android:id="false" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40dp" android:text="Customer Onboarding
+through card pack ref number" />
+			<Button android:id="false" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="7dp" android:text="Get Started" android:layout_below="false" />
+		</RelativeLayout>
+		<LinearLayout android:gravity="0x11" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginRight="4dp" android:layout_weight="{4:1084227584}">
+			<TextView android:textSize="12sp" android:textStyle="0x1" android:textColor="ffffff" android:layout_gravity="0x800003" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2dp" android:text="Enter Customer Details" />
+			<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textColor="861f41" android:textColorHint="99000" android:id="false" android:background="res/drawable/bg_correct_edit_text.xml" android:layout_width="-1" android:layout_height="-2" android:hint="Customer Name*" android:singleLine="true" android:inputType="0x1001" android:imeOptions="0x5" />
+			<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textColor="99000" android:textColorHint="99000" android:id="false" android:background="res/drawable/bg_correct_edit_text.xml" android:layout_width="-1" android:layout_height="-2" android:hint="VRN*" android:singleLine="true" android:maxLength="16" android:inputType="0x2" android:imeOptions="0x5" />
+			<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textColor="99000" android:textColorHint="99000" android:id="false" android:background="res/drawable/bg_correct_edit_text.xml" android:layout_width="-1" android:layout_height="-2" android:hint="Mobile No*" android:singleLine="true" android:maxLength="10" android:inputType="0x2" android:imeOptions="0x5" />
+			<android.form.avss.prepaidcard.ui.custom_classes.CustomInputEditText android:textColor="861f41" android:textColorHint="99000" android:id="false" android:background="res/drawable/bg_correct_edit_text.xml" android:layout_width="-1" android:layout_height="-2" android:hint="Date Of Birth*" android:singleLine="true" android:imeOptions="0x5" />
+			<Button android:textColor="861f41" android:layout_gravity="0x800005" android:id="false" android:paddingLeft="6dp" android:paddingRight="6dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2dp" android:text="Proceed" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
